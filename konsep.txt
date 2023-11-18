@@ -1,0 +1,31 @@
+Home
+
+Polikarpus Arya Pradhanika
+Undergraduated Information Engineering batch 2023
+Universitas Gadjah Mada
+
+Skill
+Problem Solving
+Competitive Programming
+
+Next.Js
+Express.js
+GitHub
+Postman
+
+Works
+gdsc-voting-api
+    use express.js to create an API
+
+Experience
+gmat (software programmer)
+nesco (web developer staff)
+
+contact me
+email: paryapradhanika@gmail.com
+linkedin: https://www.linkedin.com/in/polikarpus-arya-pradhanika-2133b5256/ 
+
+
+
+Works
+gdsc-voting-api
