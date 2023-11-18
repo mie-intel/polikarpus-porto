@@ -8,12 +8,12 @@ const Foot = () => {
   return (
     <>
       <div
-        className={`${montmid.className} text-[16px] pt-5 pb-5 pr-12 pl-12 relative flex justify-between bg-[#BCA37F] text-[#113946]`}
+        className={`${montmid.className} text-[1.7vw] pt-5 pb-5 pr-12 pl-12 relative flex justify-between bg-[#BCA37F] text-[#113946]`}
       >
         <div className="text-center items-start justify-center">
           <h1>Made with ❤️ by Polikarpus Arya</h1>
         </div>
-        <div className="flex flex-row flex-wrap justify-center gap-[5vw] bg-[#BCA37F] text-[#113946]">
+        <div className="flex flex-row flex-wrap justify-center gap-[1.4vw] bg-[#BCA37F] text-[#113946]">
           <Link href="https://github.com/mie-intel/" target="_blank">
             Github
           </Link>
