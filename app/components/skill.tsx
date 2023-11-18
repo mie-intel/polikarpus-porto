@@ -35,7 +35,7 @@ const Skill = () => {
         <div className="flex items-start">
           <h1 className="text-[30px] pb-7">Skills</h1>
         </div>
-        <div className="flex flex-row justify-between gap-[35px] flex-wrap">
+        <div className="flex flex-row justify-evenly gap-[5vw] flex-wrap">
           <SkillBox
             skillTitle={"Problem Solving"}
             bcolor={"#800000"}
