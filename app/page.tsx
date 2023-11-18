@@ -9,8 +9,10 @@ const Home = () => {
   return (
     <>
       <Head />
-      <About />
-      <Skill />
+      <div className="h-[100vh] w-[100vw] flex flex-col justify-center bg-[#EAD7BB] items-center">
+        <About />
+        <Skill />
+      </div>
       <Works />
       <Foot />
     </>

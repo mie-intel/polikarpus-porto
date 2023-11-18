@@ -12,7 +12,7 @@ interface SkillBoxProps {
 const About = () => {
   return (
     <>
-      <div className="pl-[7.5%] pt-5 pb-12 pr-[7.5%] relative flex flex-col justify-between bg-[#EAD7BB] text-[#113946]">
+      <div className="pl-[7.5%] pt-5 pb-12 pr-[7.5%] w-[100vw] relative flex flex-col justify-between bg-[#EAD7BB] text-[#113946]">
         <div className="flex items-start">
           <h1 className="text-[30px]">About Me</h1>
         </div>
