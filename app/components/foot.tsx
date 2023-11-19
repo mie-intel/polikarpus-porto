@@ -9,7 +9,7 @@ const Foot = () => {
   return (
     <>
       <div
-        className={`${montmid.className} w-[100vw] text-[17px] pt-5 pb-5 pr-[5vw] pl-[5vw] relative flex justify-between bg-[#BCA37F] text-[#113946]`}
+        className={`${montmid.className} w-[100vw] text-[17px] pt-5 pb-5  min-[351px]:pr-[5vw] min-[351px]:pl-[5vw] min-[320px]:pl-[0.5vw] relative flex justify-between bg-[#BCA37F] text-[#113946]`}
       >
         <div className="text-center items-start justify-center">
           <h1>Made with ❤️ by Polikarpus Arya</h1>
