@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 
 import { Montserrat } from "next/font/google";
 const montmid = Montserrat({ subsets: ["latin"], weight: ["600"] });
@@ -15,19 +16,29 @@ const Foot = () => {
         </div>
         <div className="flex flex-row flex-wrap justify-center gap-[1.4vw] bg-[#BCA37F] text-[#113946]">
           <Link href="https://github.com/mie-intel/" target="_blank">
-            Github
+            <Image src="/foot/github.png" alt="Github" width={30} height={30} />
           </Link>
           <Link
             href="https://www.linkedin.com/in/polikarpus-arya-pradhanika-2133b5256/"
             target="_blank"
           >
-            Linkedin
+            <Image
+              src="/foot/linkedin.png"
+              alt="Linkedin"
+              width={30}
+              height={30}
+            />
           </Link>
           <Link
             href="https://instagram.com/paryapradhanika?igshid=MzMyNGUyNmU2YQ=="
             target="_blank"
           >
-            Instagram
+            <Image
+              src="/foot/instagram.png"
+              alt="Instagram"
+              width={30}
+              height={30}
+            />
           </Link>
         </div>
       </div>

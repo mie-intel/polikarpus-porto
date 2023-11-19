@@ -7,11 +7,18 @@ const Head = () => {
         <div className="bg-[#EAD7BB] w-[15vw] h-11 rounded-r-[34px]"></div>
         <div className="flex items-center justify-center">
           <div className="flex-col justify-center items-center text-left">
-            <h1 className="text-[6vw]">Hi fellas!</h1>
-            <h1 className="text-[5vw]" style={{ color: "yellow" }}>
+            <h1 className="lg:text-[6vw] md:text-[4vw] sm:text-[9vw]">
+              Hi fellas!
+            </h1>
+            <h1
+              className="lg:text-[5vw] md:text-[4vw] sm:text-[5vw]"
+              style={{ color: "yellow" }}
+            >
               I&apos;m Polikarpus Arya
             </h1>
-            <h2 className="text-[3vw]">(was) a Competitive Programmer</h2>
+            <h2 className="lg:text-[3vw] md:text-[4vw] sm:text-[3.5vw]">
+              (was) a Competitive Programmer
+            </h2>
           </div>
         </div>
 
